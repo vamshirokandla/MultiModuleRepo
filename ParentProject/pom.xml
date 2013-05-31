@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mm</groupId>
+  <artifactId>ParentProject</artifactId>
+  <version>1.0</version>
+  <packaging>pom</packaging>
+  <name>Parent Project</name>
+  <modules>
+  	<module>child-o</module>
+  	<module>child-two</module>
+  	<module>child-three</module>
+    <module>child-ui</module>
+    <module>child-one</module>
+  </modules>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-context</artifactId>
+  		<version>3.2.3.RELEASE</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.hibernate</groupId>
+  		<artifactId>hibernate-annotations</artifactId>
+  		<version>3.5.6-Final</version>
+  	</dependency>
+  </dependencies>
+</project>
